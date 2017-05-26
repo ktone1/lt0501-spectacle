@@ -1,0 +1,5 @@
+> brew install node yarn
+> mkdir lt0501
+> cd lt0501
+> yarn init
+> yarn add pixi.js pixi-animate webpack babel-core babel-loader babel-preset-es2015 babel-preset-stage0

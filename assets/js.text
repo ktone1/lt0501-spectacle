@@ -1,0 +1,12 @@
+import PIXI from 'pixi.js';
+import * as animate from 'pixi-animate';
+import { stage } from '../sample2';
+
+window.onload = () => {
+    const scene = new animate.Scene(800, 500, {
+        view: document.getElementById("stage"),
+        backgroundColor: 0x0,
+        antialias: true
+    });
+    scene.load(stage);
+}

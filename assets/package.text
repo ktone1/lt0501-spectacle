@@ -1,0 +1,19 @@
+{
+  "name": "lt0501",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "kento.sugimoto",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "pixi-animate": "^1.3.1",
+    "pixi.js": "^4.5.1",
+    "webpack": "^2.4.1"
+  }
+}
